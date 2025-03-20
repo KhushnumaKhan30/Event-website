@@ -29,7 +29,7 @@ const HeroSection = () => {
         className="w-full h-full"
       >
         {imgs.map((img, index) => (
-          <SwiperSlide key={index} className="w-full h-full overflow-hidden border-2">
+          <SwiperSlide key={index} className="w-full h-full overflow-hidden">
             <img
               src={img}
               alt={`Slide ${index + 1}`}
