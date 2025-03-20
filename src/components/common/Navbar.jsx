@@ -39,7 +39,7 @@ export function Navbar() {
   const [navChaild,setNavChild] =useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 w-full">
+    <header className="fixed top-0 left-0 right-0 z-50 w-full bg-[#FAF5E7] ">
       {/* Top Bar */}
       <div className="hidden bg-[#2a0e4a]/80 py-2 text-white/90 md:block">
         <div className="max-w-7xl px-2 flex items-center justify-between mx-auto">
@@ -82,7 +82,7 @@ export function Navbar() {
       {/* Main Navigation */}
       <div
         className={cn(
-          "bg-gradient-to-r from-[#2a0e4a] to-[#4a1d7a] py-4 transition-all duration-300",
+          " py-4 transition-all duration-300",
           isScrolled && "py-2 shadow-lg"
         )}
       >
@@ -90,109 +90,13 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <span className="text-2xl font-bold text-white">
-              <span className="text-white">AMU</span>
-              <span className="text-white">Hacks</span>
+              <span className="text-black">AMU</span>
+              <span className="text-black">Hacks</span>
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden  gap-8 md:flex text-sm text-white">
-            {/* <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <Link href="/contact" className="text-white hover:text-white">
-                    HOME
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent text-white ">
-                    <span className="flex items-center gap-1">
-                      EVENTS
-                    </span>
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="">
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className=""
-                          >
-                            Upcoming Events
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className=""
-                          >
-                            Past Events
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent text-white hover:bg-transparent hover:text-white focus:bg-transparent">
-                    <span className="flex items-center gap-1">
-                      REGISTRATION
-                    </span>
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <ul className="bg-red-600">
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className="block p-2 hover:bg-accent hover:text-accent-foreground"
-                          >
-                            For Softwarethon
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className="block p-2 hover:bg-accent hover:text-accent-foreground"
-                          >
-                            Capture The Flag (CTF)
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className="block p-2 hover:bg-accent hover:text-accent-foreground"
-                          >
-                            Coding Compitition
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                      <li>
-                        <NavigationMenuLink asChild>
-                          <Link
-                            href="#"
-                            className="block p-2 hover:bg-accent hover:text-accent-foreground"
-                          >
-                            For Science Tech Quiz
-                          </Link>
-                        </NavigationMenuLink>
-                      </li>
-                    </ul>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <Link href="/contact" className="text-white hover:text-white">
-                    CONTACT
-                  </Link>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu> */}
+          <div className="hidden  gap-8 md:flex text-sm text-black">
            <div>
             <Link href={"/" } className="flex items-center font-bold">HOME</Link>
            </div>
