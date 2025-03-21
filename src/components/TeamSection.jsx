@@ -2,62 +2,9 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
 import Link from "next/link"
 import { Button } from "./ui/button"
+import { teamMembers } from "@/lib/utils"
 
 export default function TeamSection() {
-  const teamMembers = [
-    {
-        name: "Sameer Khan",
-        role: "Web Developer",
-        image: "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg",
-        socials: {
-          facebook: "#",
-          twitter: "#",
-          linkedin: "#",
-          instagram: "#",
-        },
-      },{
-        name: "Sameer Khan",
-        role: "Web Developer",
-        image: "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg",
-        socials: {
-          facebook: "#",
-          twitter: "#",
-          linkedin: "#",
-          instagram: "#",
-        },
-      },{
-        name: "Sameer Khan",
-        role: "Web Developer",
-        image: "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg",
-        socials: {
-          facebook: "#",
-          twitter: "#",
-          linkedin: "#",
-          instagram: "#",
-        },
-      },{
-        name: "Sameer Khan",
-        role: "Web Developer",
-        image: "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg",
-        socials: {
-          facebook: "#",
-          twitter: "#",
-          linkedin: "#",
-          instagram: "#",
-        },
-      },{
-        name: "Sameer Khan",
-        role: "Web Developer",
-        image: "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg",
-        socials: {
-          facebook: "#",
-          twitter: "#",
-          linkedin: "#",
-          instagram: "#",
-        },
-      },
-    
-  ]
 
   return (
     <section className="py-16 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">

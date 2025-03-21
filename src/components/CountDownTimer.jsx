@@ -46,7 +46,7 @@ export default function CountdownTimer() {
   }, [])
 
   return (
-    <div className="w-full bg-[#f03b9e] text-white p-3 rounded-xl flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto my-4">
+    <div className="w-full bg-[#f03b9e] text-white p-3 my-8 rounded-xl flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto ">
       <div className="mb-4 md:mb-0">
         <h2 className="text-4xl md:text-5xl font-bold">Hurry Up!</h2>
         <p className="text-xl md:text-2xl font-semibold">Register Now</p>

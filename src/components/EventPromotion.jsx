@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Users, Handshake, Phone, ArrowUpRight } from "lucide-react";
-const promotionImg =
-  "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg";
+import { PhoneNo, promotionImg } from "@/lib/utils";
 export default function EventPromotion() {
   return (
     <section className="container mx-auto py-12 px-4 md:py-16 lg:py-20">
@@ -89,7 +88,7 @@ and create impactful solutions.
               </div>
               <div>
                 <p className="text-sm text-gray-600">Call Us:</p>
-                <p className="text-sm font-bold">+9189484939-800</p>
+                <p className="text-sm font-bold">{PhoneNo}</p>
               </div>
             </div>
           </div>

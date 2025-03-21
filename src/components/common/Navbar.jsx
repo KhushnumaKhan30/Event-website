@@ -16,7 +16,7 @@ import {
   Mail,
   ArrowRight,
 } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { cn, email, facebookLink, instagramLink, linkedinLink, Location, PhoneNo, whatsapp } from "@/lib/utils";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -48,32 +48,29 @@ export function Navbar() {
             <div className="flex items-center gap-1.5">
               <MapPin className="h-4 w-4" />
               <span className="text-sm">
-                Department Of Computer Science,AMU
+                {Location}
               </span>
             </div>
             <div className="flex items-center gap-1.5">
               <Phone className="h-4 w-4" />
-              <span className="text-sm">+91829282929</span>
+              <span className="text-sm">{PhoneNo}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Mail className="h-4 w-4" />
-              <span className="text-sm">society.cs@myamu.ac.in</span>
+              <span className="text-sm">{email}</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Link href="#" className="text-white/90 hover:text-white">
+            <Link href={facebookLink} target="_black" className="text-white/90 hover:text-white">
               <Facebook className="h-4 w-4" />
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white">
-              <Twitter className="h-4 w-4" />
-            </Link>
-            <Link href="#" className="text-white/90 hover:text-white">
+            <Link href={linkedinLink} target="_blank" className="text-white/90 hover:text-white">
               <Linkedin className="h-4 w-4" />
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white">
+            <Link href={instagramLink} target="_blank" className="text-white/90 hover:text-white">
               <Instagram className="h-4 w-4" />
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white">
+            <Link href={whatsapp} className="text-white/90 hover:text-white">
               <WhatsApp className="h-4 w-4" />
             </Link>
           </div>
@@ -131,12 +128,12 @@ export function Navbar() {
 
 function MobileMenu() {
   return (
-    <DropdownMenu>
+    <DropdownMenu >
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
           size="icon"
-          className="text-white hover:bg-white/10"
+          className="text-[#E91E63]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -156,30 +153,25 @@ function MobileMenu() {
           </svg>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-[200px]">
+      <DropdownMenuContent align="end" className="w-screen bg-black text-white h-screen">
         <DropdownMenuItem>
-          <Link href="#" className="flex w-full">
+          <Link href="#home" className="flex w-full">
             HOME
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Link href="#" className="flex w-full">
+          <Link href="#events" className="flex w-full">
             EVENTS
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Link href="#" className="flex w-full">
-            SPEAKERS
+          <Link href="#about" className="flex w-full">
+            About Us
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Link href="#" className="flex w-full">
-            PAGES
-          </Link>
-        </DropdownMenuItem>
-        <DropdownMenuItem>
-          <Link href="#" className="flex w-full">
-            CONTACT
+          <Link href="#contact" className="flex w-full">
+            Contact Us
           </Link>
         </DropdownMenuItem>
       </DropdownMenuContent>

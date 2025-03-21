@@ -7,14 +7,9 @@ import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // Import icons for buttons
+import { imgs } from "@/lib/utils";
 
 const HeroSection = () => {
-  const imgs = [
-    "https://res.cloudinary.com/sameerkhan/image/upload/v1742427679/css%20club/1660386385_WhatsApp_20Image_202022-08-13_20at_204.02.22_20PM_r8x5ii.jpg",
-    "https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg",
-    "https://res.cloudinary.com/sameerkhan/image/upload/v1742427716/css%20club/1660386302_WhatsApp_20Image_202022-08-13_20at_204.02.19_20PM_ak4quj.jpg",
-    "https://res.cloudinary.com/sameerkhan/image/upload/v1742427926/css%20club/1660721450_WhatsApp_20Image_202022-08-13_20at_202.22.11_20PM_xeawff.jpg",
-  ];
 
   return (
     <div className="w-full relative overflow-hidden h-[90vh]">

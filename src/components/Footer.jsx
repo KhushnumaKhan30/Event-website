@@ -3,7 +3,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowUp, ArrowRight, Linkedin, Instagram, Twitter } from "lucide-react"
+import { ArrowUp, ArrowRight, Linkedin, Instagram, Twitter, Facebook } from "lucide-react"
+import { email, facebookLink, instagramLink, linkedinLink, PhoneNo } from "@/lib/utils"
 
 export default function SiteFooter() {
   return (
@@ -19,8 +20,8 @@ export default function SiteFooter() {
               <p>Department Of Computer Science</p>
               <p>Aligarh Muslim University (AMU)</p>
               <p>202001, Aligarh</p>
-              <p className="text-white text-xl font-medium pt-4">90067990</p>
-              <p>info@gmail.com</p>
+              <p className="text-white font-medium pt-4">{PhoneNo}</p>
+              <p>{email}</p>
             </div>
           </div>
           <div>
@@ -47,16 +48,16 @@ export default function SiteFooter() {
         <div className="flex flex-col md:flex-row justify-between items-center mt-16 pt-8 border-t border-gray-800">
           <p className="text-gray-400 mb-4 md:mb-0">Created by Web Development Team, CSS Club.</p>
           <div className="flex items-center space-x-6">
-            <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+            <Link href={linkedinLink} className="text-gray-400 hover:text-white transition-colors">
               <Linkedin className="h-5 w-5" />
               <span className="sr-only">LinkedIn</span>
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+            <Link href={instagramLink} className="text-gray-400 hover:text-white transition-colors">
               <Instagram className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </Link>
-            <Link href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Twitter className="h-5 w-5" />
+            <Link href={facebookLink} className="text-gray-400 hover:text-white transition-colors">
+              <Facebook className="h-5 w-5" />
               <span className="sr-only">Twitter</span>
             </Link>
           </div>
