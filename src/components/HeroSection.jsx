@@ -2,9 +2,11 @@
 
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/autoplay"; 
+import "swiper/css/navigation"; // Import navigation styles
+import "swiper/css/autoplay";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay, Navigation } from "swiper/modules";
+import { ChevronLeft, ChevronRight } from "lucide-react"; // Import icons for buttons
 
 const HeroSection = () => {
   const imgs = [
@@ -15,16 +17,26 @@ const HeroSection = () => {
   ];
 
   return (
-    <div className="w-full overflow-hidden h-[90vh]">
+    <div className="w-full relative overflow-hidden h-[90vh]">
+      {/* Left Navigation Button */}
+      <button className="swiper-button-prev absolute left-4 top-1/2 transform -translate-y-1/2 text-white p-3 rounded-full ml-4 z-10 ">
+        <ChevronLeft className="w-4 h-4" />
+      </button>
+
+      {/* Swiper Slider */}
       <Swiper
         spaceBetween={50}
         loop={true}
         pagination={{ clickable: true }}
-        modules={[Pagination, Autoplay]} 
+        navigation={{
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }}
+        modules={[Pagination, Autoplay, Navigation]}
         slidesPerView={1}
         autoplay={{
-          delay: 1000, // Set delay for autoplay (2 seconds)
-          disableOnInteraction: false, // Ensures autoplay continues even after user interaction
+          delay: 3000,
+          disableOnInteraction: false,
         }}
         className="w-full h-full"
       >
@@ -33,11 +45,16 @@ const HeroSection = () => {
             <img
               src={img}
               alt={`Slide ${index + 1}`}
-              className="object-cover h-full w-full overflow-hidden object-right-top"
+              className="object-cover h-full w-full"
             />
           </SwiperSlide>
         ))}
       </Swiper>
+
+      {/* Right Navigation Button */}
+      <button className="swiper-button-next absolute right-4 top-1/2 transform -translate-y-1/2  text-white p-3 rounded-full z-10 mr-4">
+        <ChevronRight className="w-10 h-10" />
+      </button>
     </div>
   );
 };

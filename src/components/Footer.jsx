@@ -7,7 +7,7 @@ import { ArrowUp, ArrowRight, Linkedin, Instagram, Twitter } from "lucide-react"
 
 export default function SiteFooter() {
   return (
-    <footer className="bg-[#0a0a1a] text-white py-12">
+    <footer className="bg-[#0a0a1a] text-white py-12" id="footer">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 gap-4">
           {/* Left column - Logo and contact info */}

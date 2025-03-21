@@ -33,6 +33,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Router } from "next/router";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -56,7 +57,7 @@ export function Navbar() {
             </div>
             <div className="flex items-center gap-1.5">
               <Mail className="h-4 w-4" />
-              <span className="text-sm">demo@gmail.com</span>
+              <span className="text-sm">society.cs@myamu.ac.in</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -89,37 +90,33 @@ export function Navbar() {
         <div className="max-w-7xl px-2 flex items-center justify-between mx-auto">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-white">
-              <span className="text-black">AMU</span>
-              <span className="text-black">Hacks</span>
+            <span className="text-2xl font-bold text-black">
+              AMUHACKS
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden  gap-8 md:flex text-sm text-black">
            <div>
-            <Link href={"/" } className="flex items-center font-bold">HOME</Link>
+            <Link href={"#home" } className="flex items-center font-bold">HOME</Link>
            </div>
            <div>
-                <Link href={"events"} className="flex items-center font-bold">EVENTS <ChevronDown className="h-4 w-4" /></Link>
+                <Link href={"#events"} className="flex items-center font-bold" >EVENTS <ChevronDown className="h-4 w-4" /></Link>
            </div>
            <div>
-                <Link href={"registration"} className="font-bold flex items-center">REGISTRATION <ChevronDown className="h-4 w-4 font-bold" /></Link>
+                <Link href={"#about"} className="font-bold">ABOUT US</Link>
            </div>
            <div>
-                <Link href={"about"} className="font-bold">ABOUT US</Link>
-           </div>
-           <div>
-            <Link href={"contact"} className="font-bold">CONTACT US</Link>
+            <Link href={"#footer"} className="font-bold">CONTACT US</Link>
            </div>
           </div>
 
           {/* Right Side Actions */}
           <div className="flex items-center gap-4">
-            <Button className="rounded-full bg-[#e91e63] px-6 text-white hover:bg-[#d81b60]">
+            <Link href={"#registration"} className="rounded-full bg-[#e91e63] px-6 text-white hover:bg-[#d81b60] cursor-pointer flex items-center py-1">
               <span className="mr-2">REGISTER NOW</span>
               <ArrowRight className="h-4 w-4" />
-            </Button>
+            </Link>
 
             {/* Mobile Menu Button */}
             <div className="md:hidden">
