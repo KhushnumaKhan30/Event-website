@@ -45,7 +45,9 @@ export default function EventPromotion() {
             </h2>
 
             <p className="text-sm font-medium text-gray-800 mb-8">
-            At AMUHacks, we bring together innovators, problem-solvers, and tech enthusiasts to push boundaries, challenge limits, and create something extraordinary. Here’s why you don’t want to miss out:
+            AMUHACKS 4.0 is not just a competition; it’s a celebration of technology,
+collaboration, and innovation — empowering students to push boundaries
+and create impactful solutions.
             </p>
           </div>
 
