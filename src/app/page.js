@@ -1,5 +1,6 @@
 import CountdownTimer from "@/components/CountDownTimer";
 import EventPromotion from "@/components/EventPromotion";
+import EventSchedulePage from "@/components/EventSchedulePage";
 import FeaturesSection from "@/components/FeaturesSection";
 import HeroSection from "@/components/HeroSection";
 import { Button } from "@/components/ui/button";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection/>
       <FeaturesSection/>
       <EventPromotion/>
+      <EventSchedulePage/>
     </div>
   );
 }
