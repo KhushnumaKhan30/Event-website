@@ -89,11 +89,11 @@ export default function EventSchedulePage() {
                 <DrawerTrigger className="bg-pink-300 hover:bg-pink-200 text-pink-500 hover:border-pink-200 font-medium px-8 cursor-pointer rounded-md py-1 ">Details</DrawerTrigger>
                 <DrawerContent className={"  max-w-6xl mx-auto bg-white text-black/80"}>
                   <DrawerHeader className={""}>
-                    <DrawerTitle className={"text-center text-4xl font-bold"}>Coding Competition: Offline Mode on HackerRank</DrawerTitle>
+                    <DrawerTitle className={"text-center text-4xl font-bold"}>{event.title}</DrawerTitle>
                     <DrawerDescription className={""}>
                     {/* <img src={event.image} alt=" " className=" w-full aspect-video object-cover  " /> */}
                       <p className="py-4">
-                      Gear up for an intense offline coding competition exclusively for AMU students, where your algorithmic skills will be put to the test! Compete against fellow programmers in a fast-paced contest hosted on HackerRank and prove your problem-solving expertise
+                      {event.description}
                       </p>
                       <span className="font-bold text-2xl">📌 Event Details:</span>
                       {
