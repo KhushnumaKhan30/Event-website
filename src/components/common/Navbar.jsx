@@ -87,8 +87,8 @@ export function Navbar() {
         <div className="max-w-7xl px-2 flex items-center justify-between mx-auto">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-black">
-              AMUHACKS
+            <span className="text-2xl font-bold text-black flex items-center gap-2">
+            <img src="https://res.cloudinary.com/sameerkhan/image/upload/b_rgb:0A0A1A/c_pad,w_213,h_213,ar_1:1/v1742642558/CSS/WhatsApp_Image_2025-03-21_at_9.16.27_PM_np5dql.jpg " className="scale-150 w-8" alt="" />AMUHACKS
             </span>
           </Link>
 
@@ -170,7 +170,7 @@ function MobileMenu() {
           </Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Link href="#contact" className="flex w-full">
+          <Link href="#footer" className="flex w-full">
             Contact Us
           </Link>
         </DropdownMenuItem>

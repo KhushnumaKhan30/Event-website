@@ -136,20 +136,20 @@ export default function TeamSection() {
         </h1>
       </div>
 
-      <h1 className="text-center text-2xl font-bold">Mentors</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
+      <h1 className="text-center text-3xl font-bold">Mentors</h1>
+      <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-3">
         {professor.map((member, index) => (
           <div key={index} className="flex flex-col items-center text-center ">
             <div className="mb-2 w-full aspect-square overflow-hidden p-2">
               <div className="" />
                 <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg" className="w-auto aspect-square rounded-full object-cover hover:scale-105 overflow-hidden transition-all duration-300" alt="" />
             </div>
-            <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-            <p className="text-muted-foreground mb-1">{member.role}</p>
-            <div className="flex space-x-2">
+            <h3 className="text-sm  font-bold mb-1">{member.name}</h3>
+            <p className=" text-sm  md:text-xltext-muted-foreground mb-1">{member.role}</p>
+            <div className="flex items-center">
               <Link
                 href={member.socials.facebook}
-                className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033ff] hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033ff] hover:text-white transition-colors"
               >
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
@@ -180,13 +180,13 @@ export default function TeamSection() {
         ))}
       </div>
 
-      <div className="bg-white rounded-full p-2 flex justify-center mb-12 max-w-3xl mx-auto shadow-sm">
+      <div className="bg-white rounded-full p-2 flex justify-center mb-4 max-w-3xl mx-auto shadow-sm">
         <div className="flex flex-wrap gap-2 justify-center w-full">
           {teamMembers.map((category,index)=>(
           <div className="flex flex-col items-center " key={index}>
             <Button className={`rounded-full bg-pink-600 hover:bg-pink-500 text-white px-6 cursor-pointer ${
                 currentCategory === category
-                  ? "bg-[#0A0A1A]"
+                  ? "bg-pink-400"
                   : "bg-pink-600 hover:bg-pink-500 text-white"
               }`} onClick={()=>setCurrentCategory(teamMembers[index])}>{category.category}</Button>
           </div>
@@ -195,40 +195,40 @@ export default function TeamSection() {
           }
         </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4">
         {currentCategory.members.map((member, index) => (
           <div key={index} className="flex flex-col items-center text-center ">
             <div className="mb-2 w-full aspect-square overflow-hidden p-2">
               <div className="" />
                 <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg" className="w-auto aspect-square rounded-full object-cover hover:scale-105 overflow-hidden transition-all duration-300" alt="" />
             </div>
-            <h3 className="text-2xl font-bold mb-1">{member.name}</h3>
-            <p className="text-muted-foreground mb-1">{member.role}</p>
-            <div className="flex space-x-2">
+            <h3 className="text-sm font-bold mb-1">{member.name}</h3>
+            <p className=" text-sm text-muted-foreground mb-1">{member.role}</p>
+            <div className="flex items-center gap-4">
               <Link
                 href={member.socials.facebook}
-                className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033ff] hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033ff] hover:text-white transition-colors"
               >
                 <Facebook size={20} />
                 <span className="sr-only">Facebook</span>
               </Link>
               <Link
                 href={member.socials.twitter}
-                className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033FF] hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033FF] hover:text-white transition-colors"
               >
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
               </Link>
               <Link
                 href={member.socials.linkedin}
-                className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033FF] hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033FF] hover:text-white transition-colors"
               >
                 <Linkedin size={20} />
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
                 href={member.socials.instagram}
-                className="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033FF] hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:bg-[#5033FF] hover:text-white transition-colors"
               >
                 <Instagram size={20} />
                 <span className="sr-only">Instagram</span>

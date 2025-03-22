@@ -12,8 +12,6 @@ export default function EventPromotion() {
             <img
               src={promotionImg}
               alt="Group of people at conference"
-              width={600}
-              height={600}
               className="object-cover w-full h-full"
             />
 
@@ -93,6 +91,10 @@ and create impactful solutions.
             </div>
           </div>
         </div>
+      </div>
+      <div className="my-16">
+        <h1 className="text-center text-5xl font-bold mb-4">Our Sponsor</h1>
+        <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1742642079/CSS/ene-logo-CfHCvaNd_sgyqc4.png" alt="" />
       </div>
     </section>
   );

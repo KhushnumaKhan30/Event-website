@@ -25,10 +25,10 @@ export const whatsapp = '';
  *    hero section images:
  */
 export const imgs = [
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1742427679/css%20club/1660386385_WhatsApp_20Image_202022-08-13_20at_204.02.22_20PM_r8x5ii.jpg',
+  'https://res.cloudinary.com/sameerkhan/image/upload/v1742641849/CSS/20231009_154905_txbhwf.jpg',
   'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1742427716/css%20club/1660386302_WhatsApp_20Image_202022-08-13_20at_204.02.19_20PM_ak4quj.jpg',
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1742427926/css%20club/1660721450_WhatsApp_20Image_202022-08-13_20at_202.22.11_20PM_xeawff.jpg',
+  'https://res.cloudinary.com/sameerkhan/image/upload/v1742641182/CSS/IMG-20231009-WA0009_xii5jl.jpg',
+  'https://res.cloudinary.com/sameerkhan/image/upload/v1742641225/CSS/20231009_160347_vecvxy.jpg',
 ];
 
 /**
