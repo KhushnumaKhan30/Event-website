@@ -17,7 +17,7 @@ const About = () => {
         <div className="text-[#9097A0] w-full max-w-7xl text-left px-10">
             {
                 aboutContent.map((content,index)=>(
-                    <p>{content}</p>
+                    <p key={index}>{content}</p>
                 ))
             }
         </div>

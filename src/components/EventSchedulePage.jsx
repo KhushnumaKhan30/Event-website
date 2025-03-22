@@ -30,7 +30,7 @@ export default function EventSchedulePage() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 " id="#registration">
       {events.map((event, index) => (
-        <Card className="overflow-hidden bg-white rounded-lg shadow-sm h-full">
+        <Card className="overflow-hidden bg-white rounded-lg shadow-sm h-full" key={index}>
           <div className="relative">
             <img
               src={event.image}
