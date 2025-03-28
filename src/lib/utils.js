@@ -118,191 +118,260 @@ export const promotionImg =
  * 
  */
 
+export const professor=[
+  {
+      name:"Prof Armaan Rasool Faridi",
+      role:"President, CSS",
+      profileImg:"https://res.cloudinary.com/sameerkhan/image/upload/v1743186927/CSS/300-1704308884_qaqm1n.png",
+      socials: {
+          facebook: '#',
+          twitter: '#',
+          linkedin: '#',
+          instagram: '#',
+        },
+  },
+  {
+      name:"Prof Aasim Zafar",
+      role:"Former President, CSS",
+      profileImg:"https://res.cloudinary.com/sameerkhan/image/upload/v1743187390/CSS/309-1710140108_q9eyvc.png",
+      socials: {
+          facebook: '#',
+          twitter: '#',
+          linkedin: '#',
+          instagram: '#',
+        },
+  },
+  {
+      name:"Dr Mohammad Nadeem",
+      role:"Convener, CSS",
+      profileImg:"https://res.cloudinary.com/sameerkhan/image/upload/v1743187836/CSS/10061777_kwfq5y.jpg",
+      socials: {
+          facebook: '#',
+          twitter: '#',
+          linkedin: '#',
+          instagram: '#',
+        },
+  },
+  {
+      name:"Dr Faisal Anwar",
+      role:"Mentor, CSS",
+      profileImg:"https://res.cloudinary.com/sameerkhan/image/upload/v1743187885/CSS/10055968_hbbxdv.jpg",
+      socials: {
+          facebook: '#',
+          twitter: '#',
+          linkedin: '#',
+          instagram: '#',
+        },
+  },
+  {
+      name:"Dr Mohammad Sajid",
+      role:"Mentor, CSS",
+      profileImg:"https://res.cloudinary.com/sameerkhan/image/upload/v1743188165/CSS/10061776-1635672717_hbxiko.jpg",
+      socials: {
+          facebook: '#',
+          twitter: '#',
+          linkedin: '#',
+          instagram: '#',
+        },
+  },
+]
 export const teamMembers = [
   {
+    category: 'Organiser',
+    members: [
+      {
+        name: 'Mr. Aftab Ansari',
+        role: 'Co-ordinator',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191467/CSS/PHOTO-2024-10-26-23-42-12_ahp9x6.jpg',
+        course:'MCA 1st',
+        socials: {
+          facebook: '',
+          twitter: '',
+          linkedin: '',
+          instagram: '',
+        },
+      },
+      {
+        name: 'Ms. Tuba Rahman',
+        role: 'Secretory',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743190988/CSS/profile_-_Tuba_Rahman_k2gwvf.jpg',
+        course:"BCA 3rd",
+        socials: {
+          github: 'https://github.com/tubarahman12',
+          linkedin: 'http://www.linkedin.com/in/tuba-rahman-200424255',
+        },
+      },
+    {
+      name: 'Mr. Mohammed Sarim',
+      role: 'AI/ML Lead',
+      course:"MCA 2nd",
+      image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191552/CSS/WhatsApp_Image_2024-02-16_at_3.54.40_PM_rclju7.jpg',
+      socials: {
+        linkedin: '',
+        github:''
+      },
+    },
+      {
+        name: 'Ms. Laeeba Javed',
+        role: 'Mentor',
+        course:"M.Sc 1st",
+        image: '',
+        socials: {
+          linkedin: '',
+          github:''
+        },
+      },
+      {
+        name: 'Mr. Ahwar Khan',
+        role: 'CyberSecurity Lead',
+        course:"M.Sc 2nd",
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191425/CSS/IMG_7908_mj5ukd.jpg',
+        socials: {
+          linkedin: '',
+          github:''
+        },
+      }
+    ],
+  },{
     category: 'Tech',
     members: [
       {
-        name: 'Saad',
+        name: 'Mohd. Saad ',
         role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
+        course:"MCA 1st",
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191515/CSS/PHOTO-2025-03-13-14-04-39_dfrk5y.jpg',
         socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
+          github:"https://github.com/CASESENSITIVE007",
+          linkedin: 'https://www.linkedin.com/in/mohammad-saad-196a88239/',
         },
       },
       {
         name: 'Sameer',
         role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743192229/CSS/1727789877891_ufkiig.jpg',
+        course:"MCA 1st",
         socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
+          github:"https://github.com/Sameerkhan9412",
+          linkedin: 'https://www.linkedin.com/in/sameerkhn/',
+          instagram: 'https://www.instagram.com/er.sam.khan/',
         },
-      },
-      {
-        name: 'Sameer Khan',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-    ],
-  },{
-    category: 'Sponsor',
-    members: [
-      {
-        name: 'XYZ ',
-        role: 'Sponser',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-      {
-        name: 'Sameer',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-      {
-        name: 'Sameer Khan',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-    ],
-  },{
-    category: 'Management',
-    members: [
-      {
-        name: 'Aftab Ansari',
-        role: 'xyz',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-      {
-        name: 'Sameer',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-      {
-        name: 'Sameer Khan',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-    ],
+      },]
   },{
     category: 'PR',
     members: [
       {
-        name: 'Random',
-        role: 'MERger',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
+        name: 'Ahmad Mustafa Khowaja',
+        role: 'PR Team',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743197730/CSS/img_-_Ahmad_Mustafa_tsgz5x.jpg',
+        course:"BCA 1st",
         socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
+          github:"https://github.com/ahmadmustafa96",
+          linkedin: 'https://www.linkedin.com/in/ahmadmkhowaja/',
+          instagram: '',
         },
       },
-      {
-        name: 'Sameer',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
-      {
-        name: 'Sameer Khan',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
-        socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
-        },
-      },
+        {
+          name: 'Haseen Fatima',
+          role: 'PR Team',
+          course:"BCA 1st",
+          image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743193297/CSS/IMG_2540_-_Haseen_Fatima_tk9gjb.jpg',
+          course:"BCA 1st",
+          socials: {
+            github:"https://github.com/haseenf28",
+            linkedin: 'https://in.linkedin.com/in/haseen-fatima-1652b2327',
+            instagram: '',
+          },
+        },{
+          name: 'Mohammad Areeb',
+          role: 'PR Team',
+          image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743193395/CSS/IMG_5534_-_Mohammad_Areeb_uzhibz.jpg',
+          course:"BCA 1st",
+          socials: {
+            github:"https://github.com/R3eb",
+            linkedin: 'http://www.linkedin.com/in/r3eb',
+            instagram: 'http://www.instagram.com/_aweeeeb_',
+          },
+        },{
+          name: 'Muneeba Khan ',
+          role: 'PR team',
+          image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743195034/CSS/WhatsApp_Image_2025-03-10_at_2.54.36_PM_-_Muneeba_Khan_nk654u.jpg',
+          course:"BCA 1st",
+          socials: {
+            github:"https://github.com/muneebaaa",
+            linkedin: 'https://www.linkedin.com/in/muneeba-khan-49b23528b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+            instagram: 'https://www.instagram.com/mun.eebaaa?igsh=bGsyOHRiYnFuZ2Rw',
+          },
+        }
     ],
   },{
-    category: 'Organiser',
+    category: 'Graphics Design',
     members: [
       {
-        name: 'contiue',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
+        name: 'Syed Rayyan Ali',
+        role: 'Social Media',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743193956/CSS/IMG-20250106-WA0027__01_cqizc7.jpg',
+        course:"MCA 1st",
         socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
+          github:"",
+          linkedin: '',
+          instagram: '',
         },
       },
       {
-        name: 'Sameer',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
+        name: 'Mohammad Sameer',
+        role: 'Graphic Design',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191676/CSS/WhatsApp_Image_2025-03-10_at_2.55.16_PM_cl2dgf.jpg',
+        course:"BCA 1st",
         socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
+          github:"https://github.com/Banana-Mint",
+          linkedin: 'https://www.linkedin.com/in/mohammad-sameer-a41aa332a/',
+          instagram: 'https://www.instagram.com/banana_miint/',
         },
-      },
+      }
+    ],
+  },{
+    category: 'Volunteer',
+    members: [
       {
-        name: 'Sameer Khan',
-        role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
+        name: 'Saurav Singh',
+        role: 'Volunteer',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191699/CSS/WhatsApp_Image_2025-03-10_at_6.55.45_AM_md5unz.jpg',
+        course:"BCA 3rd",
         socials: {
-          facebook: '#',
-          twitter: '#',
-          linkedin: '#',
-          instagram: '#',
+          github:"https://github.com/South-IN",
+          linkedin: 'https://www.linkedin.com/in/saurav-singh-228554281/',
         },
-      },
+      },{
+        name: 'Haseen Fatima',
+        role: 'Volunteer',
+        course:"BCA 1st",
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743193297/CSS/IMG_2540_-_Haseen_Fatima_tk9gjb.jpg',
+        course:"BCA 1st",
+        socials: {
+          github:"https://github.com/haseenf28",
+          linkedin: 'https://in.linkedin.com/in/haseen-fatima-1652b2327',
+          instagram: '',
+        },
+      },{
+        name: 'Mohd Amir Hasan',
+        role: 'Volunteer: Data Record/Logistics',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191631/CSS/WhatsApp_Image_2025-03-05_at_5.39.34_AM_gdxen9.jpg',
+        course:"BCA 1st",
+        socials: {
+          github:"https://github.com/mohdamirhasan",
+          linkedin: 'http://linkedin.com/in/amir-hasan-web-developer/',
+        },
+      },{
+        name: 'Madni Mahmood ',
+        role: 'Volunteer (Data Record)',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743194763/CSS/formalpic_-_Madni_Mahmood_utxzgs.jpg',
+        course:"BCA 1st",
+        socials: {
+          github:"https://github.com/Madni93",
+          linkedin: 'https://www.linkedin.com/in/madni-mahmood-a1b86b27a/',
+          instagram:"https://www.instagram.com/bishbashboshbingobangobongo/"
+        },
+      }
     ],
   },
 ];

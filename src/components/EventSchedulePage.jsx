@@ -27,8 +27,9 @@ const eventInfo = [
 
 export default function EventSchedulePage() {
   return (
+    <div className="w-full bg-[#F5F6FA]">
     <main
-      className="container mx-auto px-4 py-8 max-w-6xl bg-[#F5F6FA] "
+      className="container mx-auto px-4 py-8 max-w-6xl  "
       id="events"
     >
       <div className="flex flex-col items-center text-center mb-12">
@@ -135,5 +136,6 @@ export default function EventSchedulePage() {
         ))}
       </div>
     </main>
+    </div>
   );
 }
