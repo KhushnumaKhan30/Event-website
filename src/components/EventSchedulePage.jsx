@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
-import { CalendarIcon, Clock, MapPin, User } from "lucide-react";
+import { BookOpen, CalendarIcon, Clock, MapPin, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { useState } from "react";
-import { events } from "@/lib/utils";
+import { eventPdfLink, events } from "@/lib/utils";
 import {
   Drawer,
   DrawerClose,
@@ -15,6 +15,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer";
+import Link from "next/link";
 
 const eventInfo = [
   {
@@ -82,6 +83,10 @@ export default function EventSchedulePage() {
                   <Clock className="w-5 h-5 text-gray-500 flex-shrink-0" />
                   <span>{event.time}</span>
                 </div>
+                <div className="flex items-center gap-2">
+                  <BookOpen className="w-5 h-5 text-gray-500 flex-shrink-0" />
+                  <span>{event.eligibily}</span>
+                </div>
               </div>
             </CardContent>
             <CardFooter className="pb-6">
@@ -95,12 +100,26 @@ export default function EventSchedulePage() {
                       <p className="py-4">
                       {event.description}
                       </p>
+                      <div className="md:flex md:gap-4">
+                      <div className="">
                       <span className="font-bold text-2xl">📌 Event Details:</span>
                       {
                         event.list.map((list,index)=>(
                           <li>{list}</li>
                         ))
                       }
+                      </div>
+                      <div>
+                      <span className="text-lg font-bold">Prize Pool</span>
+                      {
+                        event?.prizes?.map((prize,index)=>(
+                          <li>{prize}</li>
+                        ))
+                      }
+                      <Link href={eventPdfLink} target="_black" className="bg-pink-300 hover:bg-pink-200 text-pink-500 hover:border-pink-200 font-medium px-8 cursor-pointer rounded-md py-1">Download pdf</Link>
+                      </div>
+
+                      </div>
                     </DrawerDescription>
                   </DrawerHeader>
                   <DrawerFooter>

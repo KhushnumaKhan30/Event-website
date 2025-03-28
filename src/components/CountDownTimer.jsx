@@ -4,11 +4,9 @@ import { useState, useEffect } from "react"
 import { MapPin } from "lucide-react"
 import Link from "next/link"
 
-// Set the target date for the countdown (30 days from now)
+// Set the fixed target date and time (12 April 2025, 6 PM)
 const getTargetDate = () => {
-  const targetDate = new Date()
-  targetDate.setDate(targetDate.getDate() + 18)
-  return targetDate
+  return new Date("2025-04-12T18:00:00");
 }
 
 export default function CountdownTimer() {
@@ -85,4 +83,3 @@ export default function CountdownTimer() {
     </div>
   )
 }
-

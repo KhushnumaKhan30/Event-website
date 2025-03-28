@@ -49,48 +49,61 @@ export const events = [
   {
     id: 1,
     title: 'Software Hackathon',
-    date: '07-april-2025',
+    date: '12-April-2025',
     location: 'Dept. Of Computer Science, AMU',
-    time: '10:00 am',
+    time: '06:00 pm-06:00 am (36 hours)(Online)',
+    eligibily:"Must Be Enrolled In Any University",
     image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742522654/CSS/Hackathon_sbhcqw.jpg',
     description: "A hybrid hackathon that empowers creative minds to innovate and showcase groundbreaking projects on a national stage.",
-    list:["💻 Mode: Online (DevFolio)","👥 Team Size: 2-4 members","💰 Entry Fee: Free","🛠 GitHub Profile/Repo Creation: Between 7th - 9th April","🚀 Prototype Submission Deadline: 9th April","🎖 Announcement of Top 10 Projects: 10th April","🏆 Final Presentation: 12th April"],
+    list:["💻 Mode: Online (DevFolio)","👥 Team Size: 2-4 members","💰 Entry Fee: Free","🛠 GitHub Profile/Repo Creation: Between 12th - 14th April","🚀 Prototype Submission Deadline: 14th April","🎖 Announcement of Top 10 Projects: 15th April","🏆 Final Presentation: 17th April | 3 pm"],
     registrationLink: '',
+    prizes:["1st Prize: Rs. 7000","2nd Prize: Rs. 5000 ","3rd Prize: Rs. 3000"],
+    pdf:"file:///C:/Users/hp/Downloads/Event&Team%20Breakdown%20(1).pdf"
   },
   {
     id: 2,
-    title: 'Capture The Flag: Online Mode on Unstop',
-    date: '07-april, 2025',
-    location: 'Dept. Of Computer Science, AMU',
-    time: '6:00 pm - 8:00 pm',
-    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742522713/CSS/cybersecurity-management-scaled-jpg_ivvqjy.webp',
-    description: 'An electrifying cybersecurity challenge that tests your problem-solving and ethical hacking skills in a race against time',
-    list:["🏴 Event Type: Capture the Flag (CTF)","👥 Team Size: 1-2 members","💰 Entry Fee: INR 50 per team","📅 Date: 7 April","⏰ Time: 6:00 PM - 8:00 PM","🏆 Result Announcement: 7 April, 10:00 PM"],
-    registrationLink: '',
-  },
-  {
-    id: 3,
-    title: 'Coding Compitition!',
-    date: '08-april, 2025',
-    location: 'Dept. Of Computer Science, AMU',
-    time: '03:00 pm - 4:00 pm',
-    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742522771/CSS/Screen-Shot-2024-09-16-at-2.38.02-PM_msgkyw.png',
-    description: "A fast-paced coding contest exclusively for AMU students, where algorithmic prowess meets competitive spirit.",
-    list:["🖥 Platform: HackerRank (Offline Mode)","💰 Entry Fee: INR 40 per person","📅 Date: 8 April","⏰ Time: 3:00 PM - 4:00 PM","🏆 Result Announcement: 9 April, 6:00 PM"],
-    registrationLink: '',
-  },
-  {
-    id: 4,
-    title: 'Quiz Competition: Offline Mode (New This Year!)',
-    date: '09-april, 2025',
+    title: 'Quiz Competition: Offline Mode',
+    date: '14-April-2025',
+    eligibily:"Must Be Enrolled Only In AMU",
 
     location: 'Dept. Of Computer Science, AMU',
     time: '03:00 pm - 05:00 pm',
     image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742522817/CSS/hq720_krxxe4.jpg',
     description: 'A riveting quiz battle that challenges teams on Computer and IT knowledge, igniting a spirit of intellectual rivalry',
-    list:["📝 Mode: Offline","🆕 New Addition This Year!","🎯 Test Your Knowledge Across Various Domains","🏆 Exciting Prizes for the Winners"],
+    list:["📝 Mode: Offline","💰 Entry Fee: INR 100 per team","👥 Team Size: 3-4 members","🎯 Test Your Knowledge Across Various Domains","🏆 Exciting Prizes for the Winners"],
+    prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
     registrationLink: '',
   },
+  {
+    id: 3,
+    title: 'Coding Compitition!',
+    date: '15-april-2025',
+    location: 'Dept. Of Computer Science, AMU',
+    
+    time: '03:00 pm - 5:00 pm',
+    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742522771/CSS/Screen-Shot-2024-09-16-at-2.38.02-PM_msgkyw.png',
+    description: "A fast-paced coding contest exclusively for students, where algorithmic prowess meets competitive spirit.",
+    list:["🖥 Platform: HackerRank (Offline Mode)","💰 Entry Fee: INR 40 per person","📅 Date: 15 April","⏰ Time: 3:00 PM - 5:00 PM"],
+    eligibily:"Must Be Enrolled In Any University",
+    prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
+
+    registrationLink: '',
+  },
+  
+  {
+    id: 4,
+    title: 'Capture The Flag: Online Mode on Unstop',
+    date: '15-April-2025',
+    location: 'Dept. Of Computer Science, AMU',
+    time: '6:00 pm - 8:00 pm',
+    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1742522713/CSS/cybersecurity-management-scaled-jpg_ivvqjy.webp',
+    description: 'An electrifying cybersecurity challenge that tests your problem-solving and ethical hacking skills in a race against time',
+    list:["📝 Mode: Online","🏴 Event Type: Capture the Flag (CTF)","👥 Team Size: 1-2 members","💰 Entry Fee: INR 50 per team","📅 Date: 15 April","⏰ Time: 08:00 PM - 10:00 PM"],
+    prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
+    
+    registrationLink: '',
+  },
+  
 ];
 
 /**
@@ -293,3 +306,5 @@ export const teamMembers = [
     ],
   },
 ];
+
+export const eventPdfLink="https://drive.google.com/file/d/1QBE5KSX7ZwJWRmcSgnEXL3e1KeB0DdMU/view?usp=sharing";

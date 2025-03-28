@@ -94,7 +94,11 @@ and create impactful solutions.
       </div>
       <div className="my-16">
         <h1 className="text-center text-5xl font-bold mb-4">Our Sponsor</h1>
+        <div className="md:grid grid-cols-2 items-center justify-center gap-4 my-8 mx-2">
         <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1742642079/CSS/ene-logo-CfHCvaNd_sgyqc4.png" alt="" />
+        <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1743186138/CSS/WhatsApp_Image_2025-03-24_at_11.23.47_PM_htquss.jpg" alt="" />
+
+        </div>
       </div>
     </section>
   );
