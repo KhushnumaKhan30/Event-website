@@ -288,8 +288,9 @@ export const teamMembers=[
         image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743309485/CSS/WhatsApp_Image_2025-03-28_at_9.41.36_PM_lezppc.jpg',
         course:"MCA (1st year)",
         socials: {
-          github:"",
-          linkedin: 'https://www.linkedin.com/in/syed-bilal-ahmad-454468203/',
+          github:"https://github.com/Sbilalahmad",
+          linkedin: 'https://www.linkedin.com/in/syed-bilal-ahmad-454468203?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+          instagram:"https://www.instagram.com/syed22144?igsh=MzNlNGNkZWQ4Mg=="
         },
       },
       {
