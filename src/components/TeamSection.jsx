@@ -43,13 +43,13 @@ export default function TeamSection() {
         ))}
       </div>
 
-      <div className="bg-white rounded-full p-2 flex justify-center mb-4 max-w-3xl mx-auto shadow-sm">
+      <div className="bg-white rounded-full p-2 flex justify-center mb-4 max-w-3xl mx-auto shadow-sm mt-8">
         <div className="flex flex-wrap gap-2 justify-center w-full">
           {teamMembers.map((category,index)=>(
-          <div className="flex flex-col items-center " key={index}>
+          <div className="flex flex-col items-center  " key={index}>
             <Button className={`rounded-full bg-pink-600 hover:bg-pink-500 text-white px-6 cursor-pointer ${
                 currentCategory === category
-                  ? "bg-pink-400"
+                  ? "bg-pink-400  font-extrabold"
                   : "bg-pink-600 hover:bg-pink-500 text-white"
               }`} onClick={()=>setCurrentCategory(teamMembers[index])}>{category.category}</Button>
           </div>

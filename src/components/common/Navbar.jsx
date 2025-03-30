@@ -16,7 +16,7 @@ import {
   Mail,
   ArrowRight,
 } from "lucide-react";
-import { cn, email, facebookLink, instagramLink, linkedinLink, Location, PhoneNo, whatsapp } from "@/lib/utils";
+import { amuHacksLogo, cn, email, facebookLink, instagramLink, linkedinLink, Location, PhoneNo, whatsapp } from "@/lib/utils";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -80,20 +80,20 @@ export function Navbar() {
       {/* Main Navigation */}
       <div
         className={cn(
-          " py-4 transition-all duration-300",
+          " py-2 transition-all duration-300 h-14",
           isScrolled && "py-2 shadow-lg"
         )}
       >
-        <div className="max-w-7xl px-2 flex items-center justify-between mx-auto">
+        <div className="max-w-7xl px-2 flex items-center justify-between mx-auto h-full">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-2xl font-bold text-black flex items-center gap-2">
-            <img src="https://res.cloudinary.com/sameerkhan/image/upload/b_rgb:0A0A1A/c_pad,w_213,h_213,ar_1:1/v1742642558/CSS/WhatsApp_Image_2025-03-21_at_9.16.27_PM_np5dql.jpg " className="scale-150 w-8" alt="" />AMUHACKS
+            <span className=" font-bold text-black flex items-center gap-2 md:text-2xl">
+            <img src={amuHacksLogo} className="scale-150 w-8 mx-2" alt="" />AMUHACKS
             </span>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden  gap-8 md:flex text-sm text-black">
+          <div className="hidden  gap-8 md:flex text-sm text-black items-center">
            <div>
             <Link href={"#home" } className="flex items-center font-bold">HOME</Link>
            </div>
@@ -110,15 +110,10 @@ export function Navbar() {
 
           {/* Right Side Actions */}
           <div className="flex items-center gap-4">
-            <Link href={"#registration"} className="rounded-full bg-[#e91e63] px-6 text-white hover:bg-[#d81b60] cursor-pointer flex items-center py-1">
-              <span className="mr-2">REGISTER NOW</span>
+            <Link href={"#registration"} className="rounded-full bg-[#e91e63]  text-white hover:bg-[#d81b60] cursor-pointer flex items-center py-1 px-2">
+              <span className="mr-2 text-sm md:textxl">REGISTER NOW</span>
               <ArrowRight className="h-4 w-4" />
             </Link>
-
-            {/* Mobile Menu Button */}
-            <div className="md:hidden">
-              <MobileMenu />
-            </div>
           </div>
         </div>
       </div>

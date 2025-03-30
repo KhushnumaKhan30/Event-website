@@ -16,6 +16,7 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import Link from "next/link";
+import CountdownTimer from "./CountDownTimer";
 
 const eventInfo = [
   {
@@ -27,9 +28,9 @@ const eventInfo = [
 
 export default function EventSchedulePage() {
   return (
-    <div className="w-full bg-[#F5F6FA]">
+    <div className="w-full bg-[#F5F6FA] h-fit">
     <main
-      className="container mx-auto px-4 py-8 max-w-6xl  "
+      className="container mx-auto px-2 py-8 max-w-6xl  "
       id="events"
     >
       <div className="flex flex-col items-center text-center mb-12">
@@ -56,7 +57,7 @@ export default function EventSchedulePage() {
       >
         {events.map((event, index) => (
           <Card
-            className="overflow-hidden bg-white rounded-lg shadow-sm h-full"
+            className="overflow-hidden shadow-sm h-fit"
             key={index}
           >
             <div className="relative">
@@ -65,11 +66,8 @@ export default function EventSchedulePage() {
                 alt={event.title}
                 className="w-full aspect-video object-cover mx-2 overflow-hidden"
               />
-              <div className="absolute top-0 left-0">
-                <div className="bg-indigo-600 text-white px-3 py-1 rounded-md flex items-center gap-1">
-                  <CalendarIcon className="w-4 h-4" />
-                  <span className="text-sm font-medium">{event.date}</span>
-                </div>
+              <div className="absolute top-0 left-2">
+                <CountdownTimer date={event.dateForCal}/>
               </div>
             </div>
             <CardContent className="pt-1 pb-0">
@@ -82,11 +80,11 @@ export default function EventSchedulePage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                  <span>{event.time}</span>
+                  <span>{event.date} | {event.time}</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <BookOpen className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                  <span>{event.eligibily}</span>
+                  <span className="font-bold">{event.eligibility}</span>
                 </div>
               </div>
             </CardContent>
@@ -117,9 +115,7 @@ export default function EventSchedulePage() {
                           <li>{prize}</li>
                         ))
                       }
-                      <Link href={eventPdfLink} target="_black" className="bg-pink-300 hover:bg-pink-200 text-pink-500 hover:border-pink-200 font-medium px-8 cursor-pointer rounded-md py-1">Download pdf</Link>
                       </div>
-
                       </div>
                     </DrawerDescription>
                   </DrawerHeader>
