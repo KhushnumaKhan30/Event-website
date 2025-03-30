@@ -110,8 +110,8 @@ export function Navbar() {
 
           {/* Right Side Actions */}
           <div className="flex items-center gap-4">
-            <Link href={"#registration"} className="rounded-full bg-[#e91e63]  text-white hover:bg-[#d81b60] cursor-pointer flex items-center py-1 px-2">
-              <span className="mr-2 text-sm md:textxl">REGISTER NOW</span>
+            <Link href={"#events"} className="rounded-full bg-[#e91e63]  text-white hover:bg-[#d81b60] cursor-pointer flex items-center py-1 px-2">
+              <span className="mr-2 text-sm" >REGISTER NOW</span>
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

@@ -41,7 +41,7 @@ export default function EventSchedulePage() {
           EVENT SCHEDULE
         </Button>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        <h1 className="text-4xl font-bold mb-4">
           Our Events Schedule Plan
         </h1>
         <p className="text-muted-foreground max-w-2xl">
@@ -73,7 +73,7 @@ export default function EventSchedulePage() {
             <CardContent className="pt-1 pb-0">
               <h3 className="text-xl font-bold mb-4">{event.title}</h3>
               <div className="text-[#8E959F] text-sm">{event.description}</div>
-              <div className="space-y-3 text-muted-foreground mt-4">
+              <div className="space-y-3 text-muted-foreground mt-4 text-sm">
                 <div className="flex items-center gap-2 ">
                   <MapPin className="w-5 h-5 text-gray-500 flex-shrink-0" />
                   <span>{event.location}</span>
@@ -84,7 +84,7 @@ export default function EventSchedulePage() {
                 </div>
                 <div className="flex items-center gap-2">
                   <BookOpen className="w-5 h-5 text-gray-500 flex-shrink-0" />
-                  <span className="font-bold">{event.eligibility}</span>
+                  <span className="">{event.eligibility}</span>
                 </div>
               </div>
             </CardContent>

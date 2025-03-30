@@ -12,11 +12,10 @@ export default function Home() {
   return (
     <div className=" scroll-smooth" id="#home">
       <HeroSection/>
-      {/* <CountdownTimer/> */}
       <EventPromotion/>
+      <TeamSection/>
       <EventSchedulePage/>
       <About/>
-      <TeamSection/>
     </div>
   );
 }

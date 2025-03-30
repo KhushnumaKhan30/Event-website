@@ -8,7 +8,7 @@ export default function EventPromotion() {
       <div className="flex w-full gap-4 items-center justify-center">
         {/* Left side - Images */}
         <div className="relative invisible w-0 md:visible md:w-1/2">
-          <div className="relative rounded-full overflow-hidden w-full aspect-square max-w-[600px] mx-auto bg-black ">
+          <div className="relative rounded-full overflow-hidden w-full aspect-square max-w-96 mx-auto bg-black ">
             <img
               src={promotionImg}
               alt="Group of people at conference"

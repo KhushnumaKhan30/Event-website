@@ -16,7 +16,7 @@ export default function TeamSection() {
   return (
     <div className="w-full bg-[#F5F6FA] ">
     <main className="container mx-auto px-4 py-8 max-w-6xl ">
-     <div className="flex flex-col items-center text-center mb-12">
+     <div className="flex flex-col items-center text-center mb-6">
         <Button
           variant="outline"
           className="rounded-full bg-white text-primary hover:bg-[#5033FF]/10 border-primary mb-6 border-[#5033FF] text-[#5033FF] font-bold"
@@ -24,12 +24,12 @@ export default function TeamSection() {
           EVENT TEAM
         </Button>
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        <h1 className="text-3xl font-bold mb-2">
           Meet Our Amazing Team
         </h1>
       </div>
 
-      <h1 className="text-center text-3xl font-bold">Mentors</h1>
+      <h1 className="text-center text-2xl font-bold">Mentors</h1>
       <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-8 justify-center mx-auto">
         {professor.map((member, index) => (
           <div key={index} className="flex flex-col items-center text-center">

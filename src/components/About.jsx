@@ -14,7 +14,7 @@ const About = () => {
         </Button>
 
         <h1 className="text-4xl md:text-5xl font-bold mb-4" id="about">About Us</h1>
-        <div className="text-[#9097A0] w-full max-w-7xl text-left px-10 ">
+        <div className="text-[#9097A0] w-full max-w-7xl text-left px-10 text-xs md:text-xl">
             {
                 aboutContent.map((content,index)=>(
                     <p key={index} className="py-2">{content}</p>

@@ -12,7 +12,7 @@ import { imgs } from "@/lib/utils";
 const HeroSection = () => {
 
   return (
-    <div className="w-full relative overflow-hidden h-[100vh]">
+    <div className="w-full relative overflow-hidden min-h-96 h-screen">
       {/* Left Navigation Button */}
       <button className="swiper-button-prev absolute left-4 top-1/2 transform -translate-y-1/2 text-white p-3 rounded-full ml-4 z-10 ">
         <ChevronLeft className="w-4 h-4" />
