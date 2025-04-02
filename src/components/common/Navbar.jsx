@@ -16,7 +16,19 @@ import {
   Mail,
   ArrowRight,
 } from "lucide-react";
-import { amuHacksLogo, cn, email, facebookLink, instagramLink, linkedinLink, Location, PhoneNo, whatsapp } from "@/lib/utils";
+import {
+  amuHacksLogo,
+  cn,
+  email,
+  facebookLink,
+  instagramLink,
+  linkedinLink,
+  Location,
+  PhoneNo,
+  whatsapp,
+} from "@/lib/utils";
+
+import whatsappLogo from "./whatsapp-svgrepo-com.svg";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -37,7 +49,7 @@ import { Router } from "next/router";
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [navChaild,setNavChild] =useState(false);
+  const [navChaild, setNavChild] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 w-full bg-[#FAF5E7] ">
@@ -47,9 +59,7 @@ export function Navbar() {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-1.5">
               <MapPin className="h-4 w-4" />
-              <span className="text-sm">
-                {Location}
-              </span>
+              <span className="text-sm">{Location}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <Phone className="h-4 w-4" />
@@ -61,17 +71,30 @@ export function Navbar() {
             </div>
           </div>
           <div className="flex items-center gap-4">
-            <Link href={facebookLink} target="_black" className="text-white/90 hover:text-white">
+            {/* <Link href={facebookLink} target="_black" className="text-white/90 hover:text-white">
               <Facebook className="h-4 w-4" />
-            </Link>
-            <Link href={linkedinLink} target="_blank" className="text-white/90 hover:text-white">
+            </Link> */}
+            <Link
+              href={linkedinLink}
+              target="_blank"
+              className="text-white/90 hover:text-white"
+            >
               <Linkedin className="h-4 w-4" />
             </Link>
-            <Link href={instagramLink} target="_blank" className="text-white/90 hover:text-white">
+            <Link
+              href={instagramLink}
+              target="_blank"
+              className="text-white/90 hover:text-white"
+            >
               <Instagram className="h-4 w-4" />
             </Link>
-            <Link href={whatsapp} className="text-white/90 hover:text-white">
-              <WhatsApp className="h-4 w-4" />
+            <Link
+              href={whatsapp} target="_blank"
+              className="text-white/90 hover:text-white"
+            >
+              <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1743601974/CSS/whatsapp-svgrepo-com_sf6f2e.svg" alt="WhatsApp logo" width={'15px'} height={
+                '15px'
+              } />
             </Link>
           </div>
         </div>
@@ -88,33 +111,42 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <span className=" font-bold text-black flex items-center gap-2 md:text-2xl">
-            <img src={amuHacksLogo} className="scale-150 w-8 mx-2" alt="" />AMUHACKS
+              <img src={amuHacksLogo} className="scale-150 w-8 mx-2" alt="" />
+              AMUHACKS
             </span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden  gap-8 md:flex text-sm text-black items-center">
-           <div>
-            <Link href={"#home" } className="flex items-center font-bold">HOME</Link>
-           </div>
-           <div>
-                <Link href={"#events"} className="flex items-center font-bold" >EVENTS <ChevronDown className="h-4 w-4" /></Link>
-           </div>
-           <div>
-                <Link href={"#about"} className="font-bold">ABOUT US</Link>
-           </div>
-           <div>
-            <Link href={"#footer"} className="font-bold">CONTACT US</Link>
-           </div>
+            <div>
+              <Link href={"#home"} className="flex items-center font-bold">
+                HOME
+              </Link>
+            </div>
+            <div>
+              <Link href={"#events"} className="flex items-center font-bold">
+                EVENTS <ChevronDown className="h-4 w-4" />
+              </Link>
+            </div>
+            <div>
+              <Link href={"#about"} className="font-bold">
+                ABOUT US
+              </Link>
+            </div>
+            <div>
+              <Link href={"#footer"} className="font-bold">
+                CONTACT US
+              </Link>
+            </div>
           </div>
 
           {/* Right Side Actions */}
-          <div className="flex items-center gap-4">
+          {/* <div className="flex items-center gap-4">
             <Link href={"#events"} className="rounded-full bg-[#e91e63]  text-white hover:bg-[#d81b60] cursor-pointer flex items-center py-1 px-2">
               <span className="mr-2 text-sm" >REGISTER NOW</span>
               <ArrowRight className="h-4 w-4" />
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </header>
@@ -123,13 +155,9 @@ export function Navbar() {
 
 function MobileMenu() {
   return (
-    <DropdownMenu >
+    <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button
-          variant="ghost"
-          size="icon"
-          className="text-[#E91E63]"
-        >
+        <Button variant="ghost" size="icon" className="text-[#E91E63]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -148,7 +176,10 @@ function MobileMenu() {
           </svg>
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-screen bg-black text-white h-screen">
+      <DropdownMenuContent
+        align="end"
+        className="w-screen bg-black text-white h-screen"
+      >
         <DropdownMenuItem>
           <Link href="#home" className="flex w-full">
             HOME

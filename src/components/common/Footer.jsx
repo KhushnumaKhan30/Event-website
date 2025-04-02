@@ -18,6 +18,7 @@ import {
   instagramLink,
   linkedinLink,
   PhoneNo,
+  whatsapp,
 } from "@/lib/utils";
 
 export default function SiteFooter() {
@@ -25,7 +26,7 @@ export default function SiteFooter() {
     <footer className="bg-[#0a0a1a] text-white py-12  mx-auto" id="footer">
       <div className="max-w-7xl mx-auto">
         <div className="mx-auto px-4 ">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+          <div className="flex justify-between">
             {/* Left column - Logo and contact info */}
             <div className="">
               <Link href="/" className="">
@@ -46,39 +47,8 @@ export default function SiteFooter() {
                 <p className="text-sm">{email}</p>
               </div>
             </div>
-            <div>
-              <h3 className="text-2xl font-medium mb-6">Quick links</h3>
-              <div className="grid grid-cols-2 gap-x-8 gap-y-2 text-sm">
-                <div className="space-y-2">
-                  <Link
-                    href="#"
-                    className="block text-gray-300 text-sm hover:text-white transition-colors"
-                  >
-                    About this Event
-                  </Link>
-                  <Link
-                    href="#"
-                    className="block text-gray-300 text-sm hover:text-white transition-colors"
-                  >
-                    Venue
-                  </Link>
-                  <Link
-                    href="#"
-                    className="block text-gray-300 text-sm hover:text-white transition-colors"
-                  >
-                    Events
-                  </Link>
-                  <Link
-                    href="#"
-                    className="block text-gray-300 text-sm hover:text-white transition-colors"
-                  >
-                    Contact us
-                  </Link>
-                </div>
-              </div>
-            </div>
             <img
-              src="https://res.cloudinary.com/sameerkhan/image/upload/c_fill,w_293,h_165,ar_16:9/v1742642557/CSS/WhatsApp_Image_2025-03-21_at_9.17.55_PM_jbalxj.jpg"
+              src="https://res.cloudinary.com/sameerkhan/image/upload/v1743603470/CSS/WhatsApp_Image_2025-04-02_at_4.51.55_PM_hwzpta.jpg"
               alt=""
               className="hidden md:flex rounded-md bg-green-500 invisible md:visible"
             />
@@ -106,11 +76,13 @@ export default function SiteFooter() {
               <span className="sr-only">Instagram</span>
             </Link>
             <Link
-              href={facebookLink}
+              href={whatsapp}
               className="text-gray-400 hover:text-white transition-colors"
             >
-              <Facebook className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
+               <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1743601974/CSS/whatsapp-svgrepo-com_sf6f2e.svg" alt="WhatsApp logo" width={'15px'} height={
+                '20px'
+              } />
+              <span className="sr-only">whatsapp</span>
             </Link>
           </div>
         </div>

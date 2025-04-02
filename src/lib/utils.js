@@ -20,7 +20,7 @@ export const linkedinLink =
   'https://www.linkedin.com/company/cssamu/posts/?feedView=all';
 export const facebookLink =
   'https://www.facebook.com/computersciencesocietyamu/';
-export const whatsapp = '';
+export const whatsapp = 'https://chat.whatsapp.com/KqWrjWUuBtT7VLngrq3ERD';
 
 /**
  *    hero section images:
@@ -52,13 +52,13 @@ export const events = [
     title: 'Software Hackathon',
     date: '12-April-2025',
     location: 'Dept. Of Computer Science, AMU',
-    time: '06:00 pm-06:00 am (36 hours)(Online)',
+    time: '06:00 pm (36 hours - Online)',
     dateForCal:"2025-04-12T18:00:00",
     eligibility:"Must Be Enrolled In Any University",
     image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349285/CSS/vecteezy_isometric-illustration-concept-team-discussion-about_9160177_mb9kog.jpg',
-    description: "A hybrid hackathon that empowers creative minds to innovate and showcase groundbreaking projects on a national stage.",
-    list:["💻 Mode: Online (DevFolio)","👥 Team Size: 2-4 members","💰 Entry Fee: Free","🛠 GitHub Profile/Repo Creation: Between 12th - 14th April","🚀 Prototype Submission Deadline: 14th April","🎖 Announcement of Top 10 Projects: 15th April","🏆 Final Presentation: 17th April | 3 pm"],
-    registrationLink: '',
+    description: "A Online hackathon that empowers creative minds to innovate and showcase groundbreaking projects on a national stage.",
+    list:["💻 Mode: Online (DevFolio)","👥 Team Size: 2-4 members","💰 Entry Fee: Free","🛠 GitHub Profile/Repo Creation: Between 12th - 14th April","🚀 Prototype Submission Deadline: 14th April","🎖 Announcement of Top 10 Projects: 15th April","🏆 Final Presentation: 17th April"],
+    registrationLink: 'https://amuhacks-4.vercel.app',
     prizes:["1st Prize: Rs. 7000","2nd Prize: Rs. 5000 ","3rd Prize: Rs. 3000"],
     pdf:"file:///C:/Users/hp/Downloads/Event&Team%20Breakdown%20(1).pdf"
   },
@@ -69,13 +69,13 @@ export const events = [
     eligibility:"Must Be Enrolled Only In AMU",
 
     location: 'Dept. Of Computer Science, AMU',
-    time: '03:00 pm - 05:00 pm',
+    time: '03:00 pm',
     image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349569/CSS/vecteezy_settings-install-maintenance-and-repair_4474423_qr426g.jpg',
     description: 'A riveting quiz battle that challenges teams on Computer and IT knowledge, igniting a spirit of intellectual rivalry',
     dateForCal:"2025-04-14T15:00:00",
-    list:["📝 Mode: Offline","💰 Entry Fee: INR 100 per team","👥 Team Size: 3-4 members","🎯 Test Your Knowledge Across Various Domains","🏆 Exciting Prizes for the Winners"],
+    list:["📝 Mode: Offline","💰 Entry Fee: INR 100 per team","👥 Team Size: 3-4 members","🏆 Exciting Prizes for the Winners"],
     prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
-    registrationLink: '',
+    registrationLink: 'https://forms.gle/1CsnfFEwDxsQZnVq5',
   },
   {
     id: 3,
@@ -83,15 +83,15 @@ export const events = [
     date: '15-april-2025',
     location: 'Dept. Of Computer Science, AMU',
     
-    time: '03:00 pm - 5:00 pm',
+    time: '03:00 pm',
     image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349474/CSS/vecteezy_man-working-with-computer-with-app-in-isometric-illustration__nmsodj.jpg',
     description: "A fast-paced coding contest exclusively for students, where algorithmic prowess meets competitive spirit.",
     dateForCal:"2025-04-15T15:00:00",
-    list:["🖥 Platform: HackerRank (Offline Mode)","💰 Entry Fee: INR 40 per person","📅 Date: 15 April","⏰ Time: 3:00 PM - 5:00 PM"],
+    list:["🖥 Platform: HackerRank (Offline Mode)","💰 Entry Fee: INR 40 per person","📅 Date: 15 April","⏰ Time: 3:00 PM"],
     eligibility:"Must Be Enrolled In Any University",
     prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
 
-    registrationLink: '',
+    registrationLink: 'https://forms.gle/MzHFT5LeDTrJvibg6',
   },
   
   {
@@ -99,14 +99,14 @@ export const events = [
     title: 'Capture The Flag: Online Mode on Unstop',
     date: '15-April-2025',
     location: 'Dept. Of Computer Science, AMU',
-    time: '6:00 pm - 8:00 pm',
+    time: '6:00 pm',
     image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349442/CSS/vecteezy_the-team-is-designing-the-app-and-launching-it-on-a-rocket__uielr4.jpg',
     description: 'An electrifying cybersecurity challenge that tests your problem-solving and ethical hacking skills in a race against time',
     dateForCal:"2025-04-15T20:00:00",
-    list:["📝 Mode: Online","🏴 Event Type: Capture the Flag (CTF)","👥 Team Size: 1-2 members","💰 Entry Fee: INR 50 per team","📅 Date: 15 April","⏰ Time: 08:00 PM - 10:00 PM"],
+    list:["📝 Mode: Online","🏴 Event Type: Capture the Flag (CTF)","👥 Team Size: 1-2 members","💰 Entry Fee: INR 50 per team","📅 Date: 15 April","⏰ Time: 08:00 PM"],
     prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
     eligibility:"Must Be Enrolled In Any University",
-    registrationLink: '',
+    registrationLink: 'https://unstop.com/o/OCP3bef?lb=uur0IvgQ',
   },
   
 ];
@@ -115,7 +115,7 @@ export const events = [
  *  EVENT PROMOTION IMAGE:
  */
 export const promotionImg =
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1743337594/CSS/AMU_HACKS_Logos-01_2_idni3q.png';
+  'https://res.cloudinary.com/sameerkhan/image/upload/v1743602285/CSS/WhatsApp_Image_2025-04-02_at_4.51.46_PM_e1jzmi.jpg';
 
 /***
  * 
@@ -187,7 +187,7 @@ export const teamMembers=[
     members: [
       {
         name: 'Mr. Aftab Ansari',
-        role: 'Mentor',
+        role: 'Coordinator',
         image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191467/CSS/PHOTO-2024-10-26-23-42-12_ahp9x6.jpg',
         course:'MCA (1st year)',
         socials: {
@@ -197,7 +197,7 @@ export const teamMembers=[
       },
       {
         name: 'Ms. Tuba Rahman',
-        role: 'Mentor',
+        role: 'Secretory',
         image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743190988/CSS/profile_-_Tuba_Rahman_k2gwvf.jpg',
         course:"B.Sc CS (3rd year)",
         socials: {
@@ -209,9 +209,9 @@ export const teamMembers=[
         name: 'Ms. Laeeba Javed',
         role: 'Mentor',
         course:"M.Sc (1st year)",
-        image: '',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743603327/CSS/laeeba_yhv9yy.webp',
         socials: {
-          linkedin: '',
+          linkedin: 'https://www.linkedin.com/in/laeeba/',
           github:''
         },
       },
@@ -254,7 +254,7 @@ export const teamMembers=[
       {
         name: 'Sameer',
         role: 'Web Developer',
-        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743192229/CSS/1727789877891_ufkiig.jpg',
+        image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743603792/CSS/sameer_profile_h1wuw8.jpg',
         course:"MCA (1st year) ",
         socials: {
           github:"https://github.com/Sameerkhan9412",
@@ -264,7 +264,7 @@ export const teamMembers=[
       },
       {
         name: 'Saurav Singh',
-        role: 'Web Developer',
+        role: '',
         image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191699/CSS/WhatsApp_Image_2025-03-10_at_6.55.45_AM_md5unz.jpg',
         course:"B.Sc CS (3rd year)",
         socials: {
@@ -295,7 +295,7 @@ export const teamMembers=[
       },
       {
         name: 'Madni Mahmood',
-        role: 'Data Record/ Logistics Team',
+        role: '',
         image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743194763/CSS/formalpic_-_Madni_Mahmood_utxzgs.jpg',
         course:"BSc. CS (1st year)",
         socials: {
@@ -306,7 +306,7 @@ export const teamMembers=[
       },
       {
         name: 'Mohd Amir Hasan',
-        role: 'Data Record/ Logistics Team',
+        role: '',
         image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743191631/CSS/WhatsApp_Image_2025-03-05_at_5.39.34_AM_gdxen9.jpg',
         course:"B.Sc CS (1st year)",
         socials: {

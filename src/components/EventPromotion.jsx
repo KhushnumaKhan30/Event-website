@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Users, Handshake, Phone, ArrowUpRight } from "lucide-react";
-import { PhoneNo, promotionImg } from "@/lib/utils";
+import { PhoneNo, promotionImg, whatsapp } from "@/lib/utils";
+import Link from "next/link";
 export default function EventPromotion() {
   return (
     <section className="container mx-auto py-4 px-4 md:py-16 lg:py-20">
@@ -64,13 +65,13 @@ and create impactful solutions.
           At AMUHacks, gain hands-on experience, compete in coding challenges, network with experts, win exciting prizes, boost your resume, and immerse yourself in a dynamic, innovation-driven tech environment. Join us now! 🚀
           </p>
 
-          <div className="flex gap-4 pt-4">
-            <Button className="bg-pink-500 hover:bg-pink-600 text-white rounded-md px-4 py-3 text-lg font-medium">
-              JOIN NOW
+          <Link href={whatsapp} target="_blank" className="flex gap-4 pt-4 cursor-pointer">
+            <Button className="bg-pink-500 hover:bg-pink-600 text-white cursor-pointer rounded-md px-4 py-3 text-lg font-medium">
+            Join our WhatsApp for updates & queries
               <ArrowUpRight className="ml-2 h-5 w-5" />
             </Button>
 
-            <div className="flex items-center space-x-3">
+            {/* <div className="flex items-center space-x-3">
               <div className="bg-purple-100 p-3 rounded-full">
                 <Phone className="w-4 h-4 text-purple-600" />
               </div>
@@ -78,8 +79,8 @@ and create impactful solutions.
                 <p className="text-sm text-gray-600">Call Us:</p>
                 <p className="text-sm font-bold">{PhoneNo}</p>
               </div>
-            </div>
-          </div>
+            </div> */}
+          </Link>
         </div>
       </div>
       <div className="my-16">

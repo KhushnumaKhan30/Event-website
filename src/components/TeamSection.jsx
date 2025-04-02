@@ -29,7 +29,7 @@ export default function TeamSection() {
         </h1>
       </div>
 
-      <h1 className="text-center text-2xl font-bold">Mentors</h1>
+      <h1 className="text-center text-2xl font-bold">Faculty Members</h1>
       <div className="grid grid-cols-2  md:grid-cols-3 lg:grid-cols-3 gap-2 md:gap-8 justify-center mx-auto">
         {professor.map((member, index) => (
           <div key={index} className="flex flex-col items-center text-center">
@@ -43,7 +43,9 @@ export default function TeamSection() {
         ))}
       </div>
 
-      <div className="bg-white rounded-full p-2 flex justify-center mb-4 max-w-3xl mx-auto shadow-sm mt-8">
+      <h1 className="text-center text-2xl font-bold mt-8">Team Members</h1>
+      <div className="bg-white rounded-full p-2 flex justify-center mb-4 max-w-3xl mx-auto shadow-sm mt-2">
+
         <div className="flex flex-wrap gap-2 justify-center w-full">
           {teamMembers.map((category,index)=>(
           <div className="flex flex-col items-center  " key={index}>
@@ -71,7 +73,7 @@ export default function TeamSection() {
             <div className="flex items-center justify-center">
               {member.socials.linkedin &&(<Link
                 href={member.socials.linkedin}
-                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:scale-110 hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:scale-110 hover:text-white transition-colors" target="_blank"
               >
                 <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1743196462/CSS/2048px-LinkedIn_icon.svg_uksccl.png" width={20}/>
                 <span className="sr-only">LinkedIn</span>
@@ -79,13 +81,14 @@ export default function TeamSection() {
               {member.socials.github &&(<Link
                 href={member.socials.github}
                 className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:scale-110 hover:text-white transition-colors"
+                target="_blank"
                 >
               <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1743197000/CSS/25231_xtjesc.png" width={20}/>
                 <span className="sr-only">Github</span>
               </Link>)}
               {member.socials.instagram &&(<Link
                 href={member.socials.instagram}
-                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:scale-110 hover:text-white transition-colors"
+                className="w-6 h-6 md:w-10 md:h-10 rounded-full bg-slate-100 flex items-center justify-center text-[#5033FF] hover:scale-110 hover:text-white transition-colors" target="_blank"
                 >
                 <img src="https://res.cloudinary.com/sameerkhan/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1743197031/CSS/640px-Instagram_icon_cbcfue.png" width={20}/>
                 <span className="sr-only">Instagram</span>
