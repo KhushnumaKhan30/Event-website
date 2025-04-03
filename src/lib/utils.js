@@ -88,7 +88,7 @@ export const events = [
     description: "A fast-paced coding contest exclusively for students, where algorithmic prowess meets competitive spirit.",
     dateForCal:"2025-04-15T15:00:00",
     list:["🖥 Platform: HackerRank (Offline Mode)","💰 Entry Fee: INR 40 per person","📅 Date: 15 April","⏰ Time: 3:00 PM"],
-    eligibility:"Must Be Enrolled In Any University",
+    eligibility:"Must Be Enrolled In AMU",
     prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
 
     registrationLink: 'https://forms.gle/MzHFT5LeDTrJvibg6',
