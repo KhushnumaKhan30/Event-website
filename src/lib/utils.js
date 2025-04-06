@@ -79,7 +79,7 @@ export const events = [
   },
   {
     id: 3,
-    title: 'Coding Compitition!',
+    title: 'Coding competition!',
     date: '15-april-2025',
     location: 'Dept. Of Computer Science, AMU',
     
