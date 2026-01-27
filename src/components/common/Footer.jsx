@@ -36,7 +36,7 @@ export default function SiteFooter() {
                     className="w-8 aspect-square rounded-md object-cover md:w-10"
                     alt=""
                   />
-                  <span>AMUHACKS</span>
+                  <span>AMUHACKS 5.0</span>
                 </div>
               </Link>
               <div className="space-y-2 text-gray-300 text-sm">

@@ -33,7 +33,7 @@ export default function EventPromotion() {
             </h2>
 
             <p className="text-sm font-medium text-gray-800 mb-8">
-            AMUHACKS 4.0 is not just a competition; it’s a celebration of technology,
+            AMUHACKS 5.0 is not just a competition; it’s a celebration of technology,
 collaboration, and innovation — empowering students to push boundaries
 and create impactful solutions.
             </p>
@@ -62,7 +62,7 @@ and create impactful solutions.
           </div>
 
           <p className="text-gray-600 text-sm">
-          At AMUHacks, gain hands-on experience, compete in coding challenges, network with experts, win exciting prizes, boost your resume, and immerse yourself in a dynamic, innovation-driven tech environment. Join us now! 🚀
+          At AMUHACKS 5.0, gain hands-on experience, compete in coding challenges, network with experts, win exciting prizes, boost your resume, and immerse yourself in a dynamic, innovation-driven tech environment. Join us now! 🚀
           </p>
 
           <Link href={whatsapp} target="_blank" className="flex gap-4 pt-4 cursor-pointer">
@@ -87,8 +87,7 @@ and create impactful solutions.
         <h1 className="text-center text-5xl font-bold mb-4">Our Sponsor</h1>
         <div className="md:grid grid-cols-2 items-center justify-center gap-4 my-8 mx-2">
         <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1742642079/CSS/ene-logo-CfHCvaNd_sgyqc4.png" alt="" className=" my-12" />
-        <img src="https://res.cloudinary.com/sameerkhan/image/upload/v1743186138/CSS/WhatsApp_Image_2025-03-24_at_11.23.47_PM_htquss.jpg" alt="" className="mt-12" />
-
+       
         </div>
       </div>
     </section>

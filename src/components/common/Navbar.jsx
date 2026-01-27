@@ -112,7 +112,7 @@ export function Navbar() {
           <Link href="/" className="flex items-center gap-2">
             <span className=" font-bold text-black flex items-center gap-2 md:text-2xl">
               <img src={amuHacksLogo} className="scale-150 w-8 mx-2" alt="" />
-              AMUHACKS
+              AMUHACKS 5.0
             </span>
           </Link>
 

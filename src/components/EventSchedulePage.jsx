@@ -56,7 +56,7 @@ export default function EventSchedulePage() {
 
           <h1 className="text-4xl font-bold mb-4">Our Events Schedule Plan</h1>
           <p className="text-muted-foreground max-w-2xl">
-            Like previous years, this time too, we are hosting AMUHacks 2025—a
+            Like previous years, this time too, we are hosting AMUHacks 2026 a
             dynamic gathering of tech enthusiasts, innovators, and
             problem-solvers competing in hackathons, coding challenges, CTFs,
             and science tech quizzes. 🚀
