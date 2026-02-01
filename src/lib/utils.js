@@ -26,12 +26,13 @@ export const whatsapp = 'https://chat.whatsapp.com/KqWrjWUuBtT7VLngrq3ERD';
  *    hero section images:
  */
 export const imgs = [
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1742641849/CSS/20231009_154905_txbhwf.jpg',
+  // '/assets/pf3.jpeg',
    '/assets/conference.jpg',
   'https://res.cloudinary.com/sameerkhan/image/upload/v1742427622/css%20club/1684217143_DSC_0255_jtnimr.jpg',
    '/assets/team.jpg',
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1742641182/CSS/IMG-20231009-WA0009_xii5jl.jpg',
+  'assets/pf2.jpeg',
   '/assets/award.jpg',
+  'assets/pf4.jpeg',
 ];
 
 /**
@@ -57,11 +58,11 @@ export const events = [
     time: '12:00 am - 6:00 pm (30 hours - Online)',
     dateForCal:"2026-02-10T18:00:00",
     eligibility:"Must Be Enrolled In Any University",
-    image: 'https://www.istockphoto.com/photo/hackathon-inscription-against-laptop-and-code-background-technology-concept-gm1403622426-456115095?searchscope=image%2Cfilm',
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c',
     description: "A Online hackathon that empowers creative minds to innovate and showcase groundbreaking projects on a national stage.",
     list:["💻 Mode: Online (DevFolio)","👥 Team Size: 2-4 members","💰 Entry Fee: Free","🛠 GitHub Profile/Repo Creation: Between 10th - 11th February","🚀 Prototype Submission Deadline: 14th April","🎖 Announcement of Top 8 Projects: 13th February","🏆 Final Presentation:...."],
-    registrationLink: 'https://amuhacks-4.vercel.app',
-    prizes:["1st Prize: Rs. 7000","2nd Prize: Rs. 5000 ","3rd Prize: Rs. 3000"],
+    registrationLink: 'https://www.amuhacks-5.online/',
+    prizes:["1st Prize: Rs. 5000","2nd Prize: Rs. 3000 ","3rd Prize: Rs. 2000"],
     pdf:"file:///C:/Users/hp/Downloads/Event&Team%20Breakdown%20(1).pdf"
   },
   {
@@ -72,12 +73,12 @@ export const events = [
 
     location: 'Dept. Of Computer Science, AMU',
     time: '03:00-4:30 pm',
-    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349569/CSS/vecteezy_settings-install-maintenance-and-repair_4474423_qr426g.jpg',
+    image: 'https://images.unsplash.com/photo-1513258496099-48168024aec0',
     description: 'A riveting quiz battle that challenges teams on Computer and IT knowledge, igniting a spirit of intellectual rivalry',
     dateForCal:"2026-02-11T15:00:00",
     list:["📝 Mode: Offline","💰 Entry Fee: INR 100 per team","👥 Team Size: 3-4 members","🏆 Exciting Prizes for the Winners"],
     prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
-    registrationLink: 'https://forms.gle/1CsnfFEwDxsQZnVq5',
+    registrationLink: 'https://forms.gle/p3EUuFGb3Vdtf8V96',
   },
   {
     id: 3,
@@ -86,14 +87,14 @@ export const events = [
     location: 'Dept. Of Computer Science, AMU',
     
     time: '03:00-4:30 pm',
-    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349474/CSS/vecteezy_man-working-with-computer-with-app-in-isometric-illustration__nmsodj.jpg',
+    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
     description: "A fast-paced coding contest exclusively for students, where algorithmic prowess meets competitive spirit.",
     dateForCal:"2026-02-10T15:00:00",
     list:["🖥 Platform: HackerRank (Offline Mode)","💰 Entry Fee: INR 40 per person","📅 Date: 10 Feb ","⏰ Time: 3:00 PM"],
     eligibility:"Must Be Enrolled In AMU",
     prizes:["1st Prize: Rs. 2000","2nd Prize: Rs. 1000 "],
 
-    registrationLink: 'https://forms.gle/MzHFT5LeDTrJvibg6',
+    registrationLink: 'https://forms.gle/BHogpSLVbo2aYP1V9',
   },
   
   {
@@ -102,7 +103,7 @@ export const events = [
     date: '13-February-2026',
     location: 'Dept. Of Computer Science, AMU',
     time: '6:00-10:00 pm',
-    image: 'https://res.cloudinary.com/sameerkhan/image/upload/v1743349442/CSS/vecteezy_the-team-is-designing-the-app-and-launching-it-on-a-rocket__uielr4.jpg',
+    image: 'https://images.unsplash.com/photo-1544197150-b99a580bb7a8',
     description: 'An electrifying cybersecurity challenge that tests your problem-solving and ethical hacking skills in a race against time',
     dateForCal:"2026-02-13T20:00:00",
     list:["📝 Mode: Online","🏴 Event Type: Capture the Flag (CTF)","👥 Team Size: 1-2 members","💰 Entry Fee: INR 50 per team","📅 Date: 13 Feb","⏰ Time: 08:00 PM"],
@@ -117,7 +118,7 @@ export const events = [
  *  EVENT PROMOTION IMAGE:
  */
 export const promotionImg =
-  'https://res.cloudinary.com/sameerkhan/image/upload/v1743602285/CSS/WhatsApp_Image_2025-04-02_at_4.51.46_PM_e1jzmi.jpg';
+  '/assets/code.jpg';
 
 /***
  * 
@@ -214,7 +215,7 @@ export const teamMembers=[
         course:"B.Sc.(Research) 4th year",
         image: '/assets/umar.jpg',
         socials: {
-          linkedin: '',
+          linkedin: 'https://www.linkedin.com/in/syed-umar-ali-1b2527291?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbkRBtgAdRbOEz3dy2cpdWQ%3D%3D',
           github:'',
           instagram: '',
         },
@@ -225,7 +226,7 @@ export const teamMembers=[
       course:"MCA (2nd year)",
       image: '/assets/bilal.jpg',
       socials: {
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/syed-bilal-ahmad-454468203?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMLmxoSagR8abLc2hbt2ZzQ%3D%3D',
         github:'',
         instagram:'',
       },
@@ -247,8 +248,9 @@ export const teamMembers=[
         course:"MCA (2nd year)",
         image: '/assets/sameer.jpg',
         socials: {
-          github:"",
-          linkedin: '',
+          linkedin: 'https://www.linkedin.com/in/sameerkhn',
+          github:'',
+          
         },
       },
       {
@@ -257,7 +259,7 @@ export const teamMembers=[
         course:"B.Sc.(Reasearch) 4th year",
         image: '/assets/saurav.jpg',
         socials: {
-          linkedin: '',
+          linkedin: 'https://www.linkedin.com/in/saurav-singh-228554281/',
           github:'',
           instagram:'',
         },
@@ -272,8 +274,9 @@ export const teamMembers=[
         image: '/assets/lalit.jpg',
         course:"MCA (2nd year) ",
         socials: {
-          github:"",
           linkedin: '',
+          github:"",
+         
         },
         
       },
@@ -283,8 +286,8 @@ export const teamMembers=[
         image: '/assets/amir.jpg',
         course:"B.Sc CS (2nd year)",
         socials: {
-          github:"",
           linkedin: '',
+          github:"",
         },
        
       },
@@ -363,6 +366,19 @@ export const teamMembers=[
           instagram: '',
         },
       },
+       {
+        name: 'Efa Arif',
+        role: '',
+        image: '/assets/efa.jpg',
+        course:"B.Sc CS (4th year)",
+        socials: {
+          github:"",
+          linkedin: '',
+        },
+
+
+      },
+
       {
         name: 'Musaib Bin Sameer',
         role: '',
@@ -403,40 +419,8 @@ export const teamMembers=[
         },
         
       },
-      {
-        name: 'Maria Ali',
-        role: '',
-        image: '/assets/maria.jpg',
-        course:"B.Sc CS (1st,{} year)",
-        socials: {
-          github:"",
-          linkedin: '',
-        },
-      },
-      {
-        name: 'Nuwaira Noor',
-        role: '',
-        image: '/assets/nuwaira.jpg',
-        course:"B.Sc CS (1st year)",
-        socials: {
-          github:"",
-          linkedin: '',
-        },
-
-      },
-      {
-        name: 'Efa Arif',
-        role: '',
-        image: '/assets/efa.jpg',
-        course:"B.Sc CS (4th year)",
-        socials: {
-          github:"",
-          linkedin: '',
-        },
-
-
-      },
-
+    
+     
     ]
   },
   
@@ -464,6 +448,28 @@ export const teamMembers=[
           linkedin: '',
         },
   },
+    {
+        name: 'Maria Ali',
+        role: '',
+        image: '/assets/maria.jpg',
+        course:"B.Sc CS (1st year)",
+        socials: {
+          github:"",
+          linkedin: '',
+        },
+      },
+      {
+        name: 'Nuwaira Noor',
+        role: '',
+        image: '/assets/nuwaira.jpg',
+        course:"B.Sc CS (1st year)",
+        socials: {
+          github:"",
+          linkedin: '',
+        },
+
+      },
+        
 ]
   },
 ];

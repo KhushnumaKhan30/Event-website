@@ -34,8 +34,8 @@ export default function EventPromotion() {
 
             <p className="text-sm font-medium text-gray-800 mb-8">
             AMUHACKS 5.0 is not just a competition; it’s a celebration of technology,
-collaboration, and innovation — empowering students to push boundaries
-and create impactful solutions.
+            collaboration, and innovation — empowering students to push boundaries
+            and create impactful solutions.
             </p>
           </div>
 
